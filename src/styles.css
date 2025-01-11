@@ -1,41 +1,49 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
+
+/* Apply the font to the body */
 body {
-    background-color: #222326; 
-    color: #FC2D7D; 
-    font-family: 'Calibre', sans-serif;
+    background-color: #191d27;
+    color: #2d83fc;
+    font-family: 'Poppins', 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
-  
+
+input, textarea, select {
+  caret-color: #4dd3ff; /* Set the cursor color */
+}
+
+/* Additional Font Variations */
 @font-face {
-    font-family: 'Calibre';
-    src: url('/assets/fonts/Calibre-Regular.woff2') format('woff2'),
-         url('/assets/fonts/Calibre-Regular.woff') format('woff'),
-         url('/assets/fonts/Calibre-Regular.ttf') format('truetype');
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('/assets/fonts/Montserrat-Regular.woff') format('woff'),
+         url('/assets/fonts/Montserrat-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Calibre';
-    src: url('/assets/fonts/Calibre-Medium.woff2') format('woff2'),
-         url('/assets/fonts/Calibre-Medium.woff') format('woff'),
-         url('/assets/fonts/Calibre-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Medium.woff2') format('woff2'),
+         url('/assets/fonts/Montserrat-Medium.woff') format('woff'),
+         url('/assets/fonts/Montserrat-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Calibre';
-    src: url('/assets/fonts/Calibre-Semibold.woff2') format('woff2'),
-         url('/assets/fonts/Calibre-Semibold.woff') format('woff'),
-         url('/assets/fonts/Calibre-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Semibold.woff2') format('woff2'),
+         url('/assets/fonts/Montserrat-Semibold.woff') format('woff'),
+         url('/assets/fonts/Montserrat-Semibold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
-  }
-  
-  /* Define the .font-sans class */
-  .font-sans {
-      font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-      font-feature-settings: "ss03", "cv02", "cv11";
-  }
-  
+}
+
+/* Define the .font-sans class */
+.font-sans {
+    font-family: 'Poppins', 'Montserrat', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-feature-settings: "ss03", "cv02", "cv11";
+}

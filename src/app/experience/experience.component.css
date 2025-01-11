@@ -16,6 +16,8 @@
   font-weight: 700;
   color: #e1dcdf;
   position: relative;
+  text-shadow: 2px 2px 2px #FF6EC7;
+
 }
 
 .experience h2::after {
@@ -33,54 +35,56 @@
 .experience-item-wrapper {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 3rem; 
+  margin-bottom: 3rem;
   position: relative;
-  width: 100%; 
+  width: 100%;
 }
 
 .date-container {
   display: flex;
-  flex-direction: column; 
-  align-items: flex-end; 
-  width: 30%; 
-  padding-right: 2rem; 
+  flex-direction: column;
+  align-items: flex-end;
+  width: 30%;
+  padding-right: 2rem;
   padding-top:2rem;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .date {
   font-size: 1.2rem;
   color: #FF6EC7;
-  text-align: right; 
-  margin-bottom: 1rem; 
+  text-align: right;
+  margin-bottom: 1rem;
+  font-weight: 550;
+  text-shadow: 0px 0px 0px #FF6EC7;
   /* padding: 30px; */
 }
 
 .timeline {
-  width: 2px; 
+  width: 2px;
   height: 100%;
   background: #e682f3;
-  border-radius: 2px; 
+  border-radius: 2px;
 }
 
 .experience-item {
   flex: 1;
   display: flex;
-  flex-direction: column; 
-  background: transparent; 
+  flex-direction: column;
+  background: transparent;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
   color: #ffffff;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-  margin-right: 200px; 
-  box-sizing: border-box; 
+  margin-right: 200px;
+  box-sizing: border-box;
 }
 
 .experience-item:hover {
-  transform: translateY(-10px); 
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
-  background-color: #444444; 
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #444444;
 }
 
 .experience-item-content {
@@ -88,7 +92,7 @@
 }
 
 .experience-item-content h3 {
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
   /* margin-bottom: 0.5rem; */
   color: #f5e3f4;
   padding:0;
@@ -96,22 +100,22 @@
 }
 
 .experience-item-content h4 {
-  font-size: 1rem; 
+  font-size: 1rem;
   margin-top: 0.5rem;
   color: #e682f3;
   /* margin:0; */
 }
 
 .experience-item-content .description {
-  font-size: 0.9rem; 
+  font-size: 0.9rem;
   line-height: 1.4;
   color: #dddddd;
 }
 
 .skill-widgets {
   display: flex;
-  flex-wrap: wrap; 
-  gap: 1rem; 
+  flex-wrap: wrap;
+  gap: 1rem;
   margin-top: 1.5rem;
 }
 
