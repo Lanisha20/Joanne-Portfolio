@@ -10,5 +10,5 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'johanna_portfolio';
+  title = 'joanne_portfolio';
 }

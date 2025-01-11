@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "johanna_portfolio": {
+    "joanne_portfolio": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/johanna_portfolio",
+            "outputPath": "dist/joanne_portfolio",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -55,10 +55,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "johanna_portfolio:build:production"
+              "buildTarget": "joanne_portfolio:build:production"
             },
             "development": {
-              "buildTarget": "johanna_portfolio:build:development"
+              "buildTarget": "joanne_portfolio:build:development"
             }
           },
           "defaultConfiguration": "development"

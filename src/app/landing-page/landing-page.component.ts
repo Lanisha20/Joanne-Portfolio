@@ -8,7 +8,7 @@ import { ContactComponent } from '../contact/contact.component';
 import { FooterComponent } from '../footer/footer.component';
 
 @Component({
-  selector: 'app-landing-page',
+  selector: 'app-landing-page', 
   standalone: true,
   imports: [AboutSectionComponent, ExperienceComponent, EducationComponent, ProjectsComponent, ExpertiseComponent, ContactComponent,FooterComponent],
   templateUrl: './landing-page.component.html',
@@ -44,9 +44,9 @@ export class LandingPageComponent implements OnInit {
   }
 
   private setActiveLink(): void {
-    if (typeof window === 'undefined') return; 
+    if (typeof window === 'undefined') return;
 
-    const scrollPos = window.scrollY + window.innerHeight / 2; 
+    const scrollPos = window.scrollY + window.innerHeight / 2;
 
     this.navLinks.forEach(link => {
       const section = document.querySelector(link.getAttribute('href') || '') as HTMLElement;
