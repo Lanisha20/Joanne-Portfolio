@@ -17,7 +17,7 @@ h3{
     font-size: 2.5rem;
     text-align: left;
     font-weight: 700;
-    text-shadow: 2px 2px 2px #FF6EC7;
+    text-shadow: 2px 2px 2px #7ca8f3;
     color: #e1dcdf;
     position: relative;
 }
@@ -27,7 +27,7 @@ h3{
     display: block;
     width: 80px;
     height: 4px;
-    background: #e682f3;
+    background: #a8b4d5;
     margin-top: 1rem;
     position: absolute;
     left: 0;
@@ -60,7 +60,7 @@ h3{
 
 .skill-icon {
     font-size: 2rem;
-    color: #e682f3;
+    color: #7ca8f3;
     margin-bottom: 0.5rem;
 }
 
